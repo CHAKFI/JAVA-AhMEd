@@ -16,5 +16,6 @@ public static void main(String[] args) {
      case '/' : s=a/b; if(b==0) System.out.println("Impossible de diviser par : 0 (");    
                 else System.out.println("-----> "+a+chx+b+r+s);
      break;
-     case '^' : s=a^b; System.out.println("");
+     case '^' : s=a^b; System.out.println("-----> "+a+chx+b+r+s);
+     break;
      default : System.out.println("Choix introuvable (-_-) "); } } }
